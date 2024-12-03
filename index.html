@@ -10,9 +10,22 @@
   </head>
   <body>
     <div class="container">
-    <div id="menu">menu</div>
+      <div id="menu">menu</div>
     </div>
-    <div class="container">Bem vindo a aula de Front End</div>
+    <div class="container mt-1">
+      <div id="conteudo" class="border border-success-subtle border-5 rounded-3 px-2">Bem vindo a aula de Front End</div>
+    </div>
+    <div class="container mt-1">
+      <div id="footer" class="border border-success-subtle border-5 rounded-3 px-2">Footer</div>
+    </div>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      $("#menu").load("./components/menu.html");
+      $("#footer").load("./components/footer.html");
+      
+
+    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
