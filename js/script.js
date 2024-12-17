@@ -1,3 +1,3 @@
-function menu(pagina){
-    $("#conteudo").load("../paginas/"+pagina+".html");
-  }
+function menu(pagina) {
+    $("#conteudo").load("../paginas/" + pagina + ".html");
+}
